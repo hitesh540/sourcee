@@ -1,0 +1,267 @@
+
+
+body {
+    background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */}
+
+ 
+
+.futer {
+    background-color: lightyellow;
+}
+
+
+
+/**
+ * border radius
+ */
+
+ .btn,
+ .jumbotron,
+ .nav :hover {
+     border-radius: 0px;
+ }
+ 
+ /* cart badge */
+ 
+ .cart-badge,
+ .cart-badge:hover {
+     border-radius: 50%;
+     padding: 2px;
+     font-size: 12px;
+     font-style: italic;
+     background: #000;
+ }
+ /**
+  * single product page - product name
+  */
+ 
+ .name {
+     background: indigo;
+     color: #fff;
+     font-weight: bold;
+ }
+ 
+ /* black shade form 10-1 */
+ .black-10 {
+     background: #f2f2f2;
+ }
+ .black-9 {
+     background: #e6e6e6;
+ }
+ .black-8 {
+     background: #d9d9d9;
+ }
+ .black-7 {
+     background: #cccccc;
+ }
+ .black-6 {
+     background: #bfbfbf;
+ }
+ .black-5 {
+     background: #b3b3b3;
+ }
+ 
+ /**
+  * product image on card
+  */
+ 
+ .product-img {
+      min-height: 100px; 
+ }
+ 
+
+ .imagi {
+    height: 360px;
+    width: 100%;
+ }
+
+
+ .frame {
+     height: 400px;
+    width: 100%;
+ }
+
+
+ .jumbotron h2 {
+     margin-top: -20px;
+ }
+ 
+ @media only screen and (max-width: 600px) {
+     .jumbotron h2 {
+         margin-top: 10px;
+     }
+ }
+ 
+ /**
+  * jumbotron animation
+  */
+ 
+ .jumbotron {
+     width: 30wh;
+     height: 30vh;
+     color: #fff;
+     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+     background-size: 400% 400%;
+     -webkit-animation: Gradient 15s ease infinite;
+     -moz-animation: Gradient 15s ease infinite;
+     animation: Gradient 15s ease infinite;
+ }
+ 
+ @-webkit-keyframes Gradient {
+     0% {
+         background-position: 0% 50%;
+     }
+     50% {
+         background-position: 100% 50%;
+     }
+     100% {
+         background-position: 0% 50%;
+     }
+ }
+ 
+ @-moz-keyframes Gradient {
+     0% {
+         background-position: 0% 50%;
+     }
+     50% {
+         background-position: 100% 50%;
+     }
+     100% {
+         background-position: 0% 50%;
+     }
+ }
+ 
+ @keyframes Gradient {
+     0% {
+         background-position: 0% 50%;
+     }
+     50% {
+         background-position: 100% 50%;
+     }
+     100% {
+         background-position: 0% 50%;
+     }
+ }
+ 
+
+
+
+
+
+ 
+/* .heading {
+    text-align: center;
+    font-size: 2em;
+    color: #2d3436;
+    margin: 20px 0 30px;
+  }
+  
+  .card {
+    border-radius: 25px;
+    position: relative;
+    padding: 25px 15px;
+    background-color: #81ecec;
+    margin: 50px 0;
+    height: 200px;
+    box-shadow: 0 2px 5px #ccc;
+    text-align: left;
+  }
+  
+  .top {
+    border-radius: 25px 25px 0 0;
+    height: 100px;
+    width: 100%;
+    background-color: #00cec9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+  }
+  
+  .name {
+    font-size: 2em;
+    color: #2d3436;
+    display: flex;
+    flex: 1;
+    margin: 10% 20px 0;
+  }
+  
+  .card img {
+    margin: 30px 20px 0 0;
+  }
+  
+  .circle-img {
+    border-radius: 50%;
+    border: 7px solid #fff;
+    width: 120px;
+    height: 120px;
+  }
+  
+  .bottom {
+    margin-top: 120px;
+  }
+  
+  .info {
+    margin: 20px 0;
+    color: #1a7e76;
+  }
+   */
+
+
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: sandybrown;
+}
+
+
+.fetur{
+    height: 300px;
+    width: 300px;
+}
+
+
+
+.cent {
+    text-align: center;
+}
+
+.margg{
+    margin-left: 400px;
+}
+
+
+.marg {
+   margin-left: 350px;
+}
+
+   .para {
+    line-height: 2;
+  }
+
+  .foo{
+    color: #66BFBF;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+  }
+
+   .head {
+    color: #66BFBF;
+    font-size: 3.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+  }
+  
+  .bld{
+    font-size: 150%;
+  }
+  
+  
